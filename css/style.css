@@ -1,0 +1,80 @@
+.inline-block,.inline-block li{
+    display: inline-block;
+    vertical-align: top;
+   
+
+  }
+
+
+.logo {
+    width: 300px;
+    padding: 19px;
+    float: left;
+    background-color: #373738;
+    
+  }
+
+nav {
+    padding: 16px;
+    background-color: #373738;
+    float: right;
+  }
+
+.navigation {
+    overflow: hidden;
+
+  }
+
+ul {
+    margin: 0;
+    color: white;
+  }
+ 
+  .heroImg {
+      height: 600px;
+      padding: 25px;
+
+  }
+
+  .sherayface {
+      height: 150px;
+    
+      
+  }
+
+  .content {
+      width: 500px;
+      margin: auto;
+      text-align: center;
+      padding: 125px 19px;
+      background-color: white;
+  }
+
+  footer {
+    background-color: #373738;
+    padding: 0 25px;
+
+  }
+
+  footer ul{
+    
+    vertical-align: top;
+    width: auto;
+    
+  }
+
+  footer li, .inline-block li{
+      font-weight: bold;
+      padding: 10px 15px;
+      display: inline-block;
+  }
+
+body {
+    background-color: lightgrey;
+    margin: 0;
+
+}
+
+header {
+    background-color: #373738;
+}
