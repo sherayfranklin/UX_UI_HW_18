@@ -1,150 +1,68 @@
-.inline-block,.inline-block li{
-    display: inline-block;
-    vertical-align: top;
-   
-
-  }
-
-
-.logo {
-    width: 300px;
-    padding: 19px;
-    float: left;
-    background-color: #374245;
-    
-  }
-
-nav {
-    padding: 16px;
-    background-color: #374245;
-    float: right;
-    font-family: Helvetica, sans-serif;
-  }
-
-.navigation {
-    overflow: hidden;
-    background-color: #374245;
-
-  }
-
-ul {
-    margin: 0;
-    color: white;
-  }
- 
-.heroImg {
-      height: 600px;
-      padding: 25px;
-
-  }
-
-.sherayface {
-      height: 150px;
-       
-  }
-
-
-footer {
-    padding: 0 25px;
-    padding: 16px;
-    background-color: #374245;
-    float: right;
-    font-family: Helvetica, sans-serif;
-
-  }
-
-footer ul{
-    
-    vertical-align: top;
-    width: auto;
-    
-  }
-
-footer li, .inline-block li{
-      font-weight: bold;
-      padding: 10px 15px;
-      display: inline-block;
-  }
-
 body {
-    background-color: lightgrey;
-    margin: 0;
+  background-color: lightgrey;
+  margin: 0;
 
 }
+
+button {
+color: #F18157;
+background-color: antiquewhite;
+border: 0px;
+padding: 10px 50px 10px 50px;
+font-weight: 800;
+border-radius: 30px;
+}
+
+
 
 .content {
-  width: 500px;
-  margin: auto;
-  text-align: center;
-  padding: 125px 19px;
-  background-color: white;
+width: 500px;
+margin: auto;
+text-align: center;
+padding: 125px 19px;
+background-color: white;
 }
 
+footer {
+padding: 0 25px;
+padding: 16px;
+background-color: #374245;
+float: right;
+font-family: Helvetica, sans-serif;
+
+}
+
+footer ul{
+  
+vertical-align: top;
+width: auto;
+
+}
+
+footer li, .inline-block li{
+  font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.governmentapp1 {
+height: 500px;
+
+}
 
 header {
-    background-color: #373738;
+  background-color: #373738;
 }
 
-.workGrid{
-  display:grid;
-  height: 800px;
-  padding: 100px;
-  grid-template-columns: auto auto auto;
-  align-content: start;
-  grid-gap: 50px;
-  background-color: #ffffff;
-}
-.projects1 {
-  background-color: #F18157;
-  color: #FFFFFF;
-  width: 300px;
-  height: 300px;
-  padding: 3px 50px 5px 50px;
-  text-align: center;
-}
-
-.projects2 {
-  background-color: #F2CBBD;
-  color: #FFFFFF;
-  width: 300px;
-  height: 300px;
-  padding: 3px 50px 5px 50px;
-  text-align: center;
-}
-
-.projects3 {
-  background-color: #374245;
-  color: #FFFFFF;
-  width: 300px;
-  height: 300px;
-  padding: 3px 50px 5px 50px;
-  text-align: center;
-  
-}
-
-.projects4 {
-  width: 100px;
-  height: 100px;
-
-}
-
-.works {
-  height: 550px;
-  align-content: ;
-  padding: ;
-
-}
-
-.works1 {
-  height: 550px;
-  align-content: center;
-  padding: 3px 50px 5px 50px;
+.heroImg {
+height: 600px;
+padding: 25px;
 
 }
 
 h1 {
-  font-size: 75px;
-    font-family: Helvetica, sans-serif;
+font-size: 75px;
+  font-family: Helvetica, sans-serif;
 }
 
 h3 {
@@ -168,16 +86,111 @@ h5 {
     
     }
 
-button {
-  color: #F18157;
-  background-color: antiquewhite;
-  border: 0px;
-  padding: 10px 50px 10px 50px;
-  font-weight: 800;
-  border-radius: 30px;
+
+
+
+.inline-block,.inline-block li{
+display: inline-block;
+vertical-align: top;
+
 }
 
-.governmentapp1 {
-  height: 500px;
 
+.logo {
+width: 300px;
+padding: 19px;
+float: left;
+background-color: #374245;
+
+}
+
+nav {
+padding: 16px;
+background-color: #374245;
+float: right;
+font-family: Helvetica, sans-serif;
+}
+
+.navigation {
+overflow: hidden;
+background-color: #374245;
+
+}
+
+.projects1 {
+background-color: #F18157;
+color: #FFFFFF;
+width: 300px;
+height: 300px;
+padding: 3px 50px 5px 50px;
+text-align: center;
+
+}
+
+.projects2 {
+background-color: #F2CBBD;
+color: #FFFFFF;
+width: 300px;
+height: 300px;
+padding: 3px 50px 5px 50px;
+text-align: center;
+}
+
+.projects3 {
+background-color: #374245;
+color: #FFFFFF;
+width: 300px;
+height: 300px;
+padding: 3px 50px 5px 50px;
+text-align: center;
+
+}
+
+.projects4 {
+width: 100px;
+height: 100px;
+
+}
+
+.sherayface {
+height: 150px;
+ 
+}
+
+ul {
+margin: 0;
+color: white;
+}
+
+.works {
+height: 550px;
+padding: ;
+
+}
+
+.works1 {
+height: 550px;
+align-content: center;
+padding: 3px 50px 5px 50px;
+
+}
+.workGrid {
+display:grid;
+height: 800px;
+padding: 50px 50px 0px 50px;
+grid-template-columns: auto auto auto;
+align-content: start;
+grid-gap: 50px;
+background-color: #ffffff;
+}
+
+
+.wireframe-image {
+display:grid;
+height: 800px;
+padding: 3px 50px 5px 50px;
+grid-template-columns: auto auto auto;
+align-content: start;
+grid-gap: 50px;
+background-color: #ffffff;
 }
