@@ -147,7 +147,6 @@ text-align: center;
 }
 
 .projects4 {
-width: 100px;
 height: 100px;
 
 }
@@ -170,6 +169,7 @@ padding: ;
 
 .works1 {
 height: 550px;
+width: :100%;
 align-content: center;
 padding: 3px 50px 5px 50px;
 
@@ -190,7 +190,7 @@ display:grid;
 height: 800px;
 padding: 3px 50px 5px 50px;
 grid-template-columns: auto auto auto;
-align-content: start;
+align-content: center;
 grid-gap: 50px;
 background-color: #ffffff;
 }
