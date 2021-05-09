@@ -27,7 +27,6 @@ footer {
 padding: 0 25px;
 padding: 16px;
 background-color: #374245;
-float: right;
 font-family: Helvetica, sans-serif;
 
 }
@@ -147,7 +146,7 @@ text-align: center;
 }
 
 .projects4 {
-height: 100px;
+
 
 }
 
@@ -162,22 +161,24 @@ color: white;
 }
 
 .works {
-height: 550px;
-padding: ;
+height: 500px;
+margin-top: -150px;
+margin-left: -100px;
+
 
 }
 
 .works1 {
 height: 550px;
-width: :100%;
+width:100%;
 align-content: center;
 padding: 3px 50px 5px 50px;
 
 }
 .workGrid {
 display:grid;
-height: 800px;
-padding: 50px 50px 0px 50px;
+height: 400px;
+padding: 150px 50px 50px 50px;
 grid-template-columns: auto auto auto;
 align-content: start;
 grid-gap: 50px;
@@ -186,11 +187,33 @@ background-color: #ffffff;
 
 
 .wireframe-image {
-display:grid;
-height: 800px;
 padding: 3px 50px 5px 50px;
-grid-template-columns: auto auto auto;
-align-content: center;
-grid-gap: 50px;
 background-color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600) {
+
+  
+}
+
