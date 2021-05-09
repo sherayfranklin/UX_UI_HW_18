@@ -24,24 +24,23 @@ background-color: white;
 }
 
 footer {
-padding: 0 25px;
-padding: 16px;
+padding: auto;
 background-color: #374245;
 font-family: Helvetica, sans-serif;
 
 }
 
 footer ul{
-  
-vertical-align: top;
+vertical-align: text-top;
 width: auto;
 
 }
 
 footer li, .inline-block li{
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 0px 10px 10px 0px;
   display: inline-block;
+  
 }
 
 .governmentapp1 {
@@ -85,6 +84,13 @@ h5 {
     
     }
 
+h6 {
+  color:#F18157;
+  font-size: 100px;
+  font-family: Helvetica, sans-serif;
+  padding: auto;
+
+}
 
 
 
