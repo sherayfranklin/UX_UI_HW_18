@@ -130,12 +130,12 @@ background-color: #374245;
 
 .mySkillsLeft{
   width: 40%;
-  display: inline-block;
+  float: left;
 }
 
 .mySkillsRight{
   width: 40%;
-  display: inline-block
+ float: right;
 }
 
 nav {
