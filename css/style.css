@@ -1,5 +1,34 @@
-body {
-  background-color: lightgrey;
+.aboutMe {
+  margin-bottom: -200px;
+}
+
+.aboutMeLeft {
+  display: inline-block;
+  margin: 0px;
+}
+
+.aboutMeRight {
+  display:inline-block;
+  margin-top: -9px;
+  
+}
+
+.aboutMeimg {
+  width:400px;
+  margin-left: 40px;
+  
+}
+
+.aboutmep {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  margin-top: -75px;
+  margin-left: 40px;
+
+}
+  
+  body {
+  background-color: white;
   margin: 0;
 
 }
@@ -61,8 +90,9 @@ footer li, .inline-block li{
 
 }
 .governmentapp1 {
-height: 500px;
-width: 40%
+height: 650px;
+margin-top: -100px;
+
 
 }
 
@@ -70,15 +100,18 @@ header {
   background-color: #373738;
 }
 
-.heroImg {
-height: 600px;
+.aboutMe {
+height: 800px;
 padding: 25px;
 
 }
 
 h1 {
-font-size: 75px;
-  font-family: Helvetica, sans-serif;
+font-size: 100px;
+font-family: Helvetica, sans-serif;
+color: #374245;
+display: inline-block;
+margin
 }
 
 h3 {
@@ -128,14 +161,21 @@ background-color: #374245;
 
 }
 
+.mySkills {
+  height: 700px;
+
+}
+
 .mySkillsLeft{
   width: 40%;
   float: left;
+
 }
 
 .mySkillsRight{
-  width: 40%;
+  width: 45%;
  float: right;
+
 }
 
 nav {
@@ -187,10 +227,28 @@ text-align: center;
 
 .sitemap {
   background-color: #ffffff;
+  position: absolute;
+  z-index: -1;
 
-}.sherayface {
-height: 150px;
+}
+
+.skillsHeader {
+  display: inline-block;
+  margin: 0px;
+}
+
+.sherayface {
+height: 600px;
  
+}
+
+.skillsp {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  margin: 0px;
+  margin-left: 90px; 
+
 }
 
 ul {
@@ -216,7 +274,8 @@ padding: 3px 50px 5px 50px;
 .workGrid {
 display:grid;
 height: 400px;
-padding: 150px 50px 50px 50px;
+padding: 0px 50px 50px 50px;
+margin: 0px;
 grid-template-columns: auto auto auto;
 align-content: start;
 grid-gap: 50px;
