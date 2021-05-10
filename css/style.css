@@ -27,6 +27,7 @@ footer {
 padding: auto;
 background-color: #374245;
 font-family: Helvetica, sans-serif;
+text-align: left;
 
 }
 
@@ -43,6 +44,22 @@ footer li, .inline-block li{
   
 }
 
+.footer-text {
+  width: 40%;
+  display: inline-block;
+
+}
+
+.footer-text-body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  color: #FFFFFF;
+  width: 40%;
+  margin: 100px;
+  display: inline-block;
+
+}
 .governmentapp1 {
 height: 500px;
 
@@ -88,7 +105,8 @@ h6 {
   color:#F18157;
   font-size: 100px;
   font-family: Helvetica, sans-serif;
-  padding: auto;
+  margin: 0px;
+ 
 
 }
 
