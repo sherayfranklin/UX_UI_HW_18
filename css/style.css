@@ -50,6 +50,7 @@ border: 0px;
 padding: 10px 50px 10px 50px;
 font-weight: 800;
 border-radius: 30px;
+margin-top: 0px;
 }
 
 
@@ -128,6 +129,7 @@ h3 {
 color: #F18157;
 font-family: Helvetica, sans-serif;
 font-size: 15px;
+margin-top: -1px
 
 }
 
@@ -135,6 +137,7 @@ h4 {
   color: #374245;
   font-family: Helvetica, sans-serif;
   font-size: 15px;
+  margin-top: 0px;
   
   }
 
@@ -257,7 +260,7 @@ height: 600px;
   font-size: 24px;
   display: inline-block;
   margin: 0px;
-  margin-left: 90px; 
+  margin-left: 45px; 
 
 }
 
