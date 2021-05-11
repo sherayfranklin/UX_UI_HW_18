@@ -26,8 +26,18 @@
   margin-left: 40px;
 
 }
-  
-  body {
+
+.aboutMeButton {
+  margin-left: 40px;
+  color: #ffffff;
+  background-color:#F2CBBD;
+  border: 0px;
+  padding: 15px 25px 15px 25px;
+  font-weight: 800;
+  border-radius: 30px;
+}
+
+body {
   background-color: white;
   margin: 0;
 
@@ -283,6 +293,8 @@ background-color: #ffffff;
 }
 
 
+
+
 .wireframe-image {
 padding: 3px 50px 5px 50px;
 background-color: #ffffff;
@@ -291,25 +303,18 @@ background-color: #ffffff;
 
 
 
+@media only screen and (max-width: 600px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600) {
+  .workGrid {
+    display:grid;
+    height: 400px;
+    padding: 0px 50px 50px 50px;
+    margin: 0px;
+    grid-template-columns: 1fr;
+    align-content: start;
+    grid-gap: 50px;
+    background-color: #ffffff;
+    }
 
   
 }
