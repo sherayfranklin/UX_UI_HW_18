@@ -211,6 +211,7 @@ width: 300px;
 height: 300px;
 padding: 3px 50px 5px 50px;
 text-align: center;
+border-radius: 15px;
 
 }
 
@@ -221,6 +222,7 @@ width: 300px;
 height: 300px;
 padding: 3px 50px 5px 50px;
 text-align: center;
+border-radius: 15px;
 }
 
 .projects3 {
@@ -230,13 +232,10 @@ width: 300px;
 height: 300px;
 padding: 3px 50px 5px 50px;
 text-align: center;
+border-radius: 15px;
 
 }
 
-.projects4 {
-
-
-}
 
 .sitemap {
   background-color: #ffffff;
@@ -252,6 +251,7 @@ text-align: center;
 
 .sherayface {
 height: 600px;
+border-radius: 40px;
  
 }
 
